@@ -9,4 +9,4 @@ if numero1 > numero2:
 elif numero2 > numero1:
     print("O segundo numero {} , é maior que o numero {}.".format(numero2, numero1))
 else:
-    print("Não existe favor maior , os dois numeros são iguais .")
+    print("Não existe Valor maior , os dois numeros são iguais .")
