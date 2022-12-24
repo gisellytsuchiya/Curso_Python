@@ -23,9 +23,9 @@ tesoura = "TESOURA"
 lista = [pedra, papel, tesoura]
 escolhido = random.choice(lista)
 print("Pense em uma das três possibilidades"
-      "\nEu já escolhi , so falta você ..."
-      "\n\033[1;36;40m>>>>>>>>>>JOKENPÔ<<<<<<<<<<\033[m")
+      "\nEu já escolhi , so falta você ...")
 adversario = str(input("Digite agora o seu escolhido :")).strip().upper()
+print("\033[1;36;40m>>>>>>>>>>JOKENPÔ<<<<<<<<<<\033[m")
 if escolhido == adversario:
       print("EMPATE"
             "\nVAMOS JOGAR DE NOVO")

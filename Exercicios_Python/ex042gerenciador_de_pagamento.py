@@ -25,5 +25,9 @@ elif forma_pagamento == 3:
     print("O valor do produto é R${:.2f} .".format(produto))
 elif forma_pagamento == 4:
     cartao3x = produto +((produto * 25) / 100)
+    parcelas = int(input("Quantas parcelas ?"))
+    total = cartao3x / parcelas
     print("O valor do produto é R${:.2f} , e você pagará 25% de juros ."
-          "\nO valor a pagar é de R${:.2f} .".format(produto, cartao3x))
+          "\nO valor a pagar é de R${:.2f} por mês.".format(produto, total))
+else:
+    print("Forma de pagamento invalido , tente novamente .")
