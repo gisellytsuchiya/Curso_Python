@@ -20,3 +20,4 @@ if escolhido == jogo:
     print("PARABENS , VOCÊ ACERTOU E GANHOU O JOGO !!")
 else:
     print(" {} .... QUE PENA , EU GANHEI , MAIS TENTE DENOVO , VOCÊ CONSEGUE .".format(jogo))
+    
